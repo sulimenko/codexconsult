@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/{view?}', function ($view = 'index') {
+
+    // $view = ($view !== '') ? $view : 'index';
+    $view = (View::exists($view)) ? $view : '404';
+    return view($view);
 });
