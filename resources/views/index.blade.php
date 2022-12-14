@@ -282,102 +282,37 @@
 				</div> <!-- /.theme-title-one -->
 				<div class="wrapper">
 					<div class="row">
+						@foreach([
+							['image' => '6.jpg', 'phrase' => 'The government they survive as soldiers of fortune.', 'fio' => 'Алексей Лысенко', 'position' => 'Директор по продажам'],
+							['image' => '7.jpg', 'phrase' => 'The government they survive as soldiers of fortune.', 'fio' => 'Александр Бердюгин', 'position' => 'Комплаенс-директор'],
+							['image' => '5.jpg', 'phrase' => 'The government they survive as soldiers of fortune.', 'fio' => 'Алмаз Абраимов', 'position' => 'Генеральный директор'],
+							// ['image' => '3.jpg', 'phrase' => 'The government they survive as soldiers of fortune.', 'fio' => 'Алмаз Абраимов', 'position' => 'Генеральный директор'],
+						] AS $each)
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="team-member">
 								<div class="image-box">
-									<img src="images/team/6.jpg" alt="">
+									<img src="images/team/{{ $each['image'] }}" alt="">
 									<div class="overlay">
 										<div class="hover-content">
 											<ul>
-												<li><a href="index.html#"><i class="fa fa-facebook"
+												<li><a href="index"><i class="fa fa-facebook"
 															aria-hidden="true"></i></a></li>
-												<li><a href="index.html#"><i class="fa fa-twitter"
+												<li><a href="index"><i class="fa fa-twitter"
 															aria-hidden="true"></i></a></li>
-												<li><a href="index.html#"><i class="fa fa-pinterest"
+												<li><a href="index"><i class="fa fa-pinterest"
 															aria-hidden="true"></i></a></li>
 											</ul>
-											<p>The government they survive as soldiers of fortune.</p>
+											<p>{{ $each['phrase'] }}</p>
 										</div> <!-- /.hover-content -->
 									</div> <!-- /.overlay -->
 								</div> <!-- /.image-box -->
 								<div class="text">
-									<h6>Алексей Лысенко</h6>
-									<span>Директор по продажам</span>
+									<h6>{{ $each['fio'] }}</h6>
+									<span>{{ $each['position'] }}м</span>
 								</div> <!-- /.text -->
 							</div> <!-- /.team-member -->
 						</div> <!-- /.col- -->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="team-member">
-								<div class="image-box">
-									<img src="images/team/5.jpg" alt="">
-									<div class="overlay">
-										<div class="hover-content">
-											<ul>
-												<li><a href="index.html#"><i class="fa fa-facebook"															aria-hidden="true"></i></a></li>
-												<li><a href="index.html#"><i class="fa fa-twitter"
-															aria-hidden="true"></i></a></li>
-												<li><a href="index.html#"><i class="fa fa-pinterest"
-															aria-hidden="true"></i></a></li>
-											</ul>
-											<p>The government they survive as soldiers of fortune.</p>
-										</div> <!-- /.hover-content -->
-									</div> <!-- /.overlay -->
-								</div> <!-- /.image-box -->
-								<div class="text">
-									<h6>Алмаз Абраимов</h6>
-									<span>Генеральный директор</span>
-								</div> <!-- /.text -->
-							</div> <!-- /.team-member -->
-						</div> <!-- /.col- -->
-<!--				<div class="col-lg-3 col-sm-6 col-12">
-							<div class="team-member">
-								<div class="image-box">
-									<img src="images/team/3.jpg" alt="">
-									<div class="overlay">
-										<div class="hover-content">
-											<ul>
-												<li><a href="index.html#"><i class="fa fa-facebook"
-															aria-hidden="true"></i></a></li>
-												<li><a href="index.html#"><i class="fa fa-twitter"
-															aria-hidden="true"></i></a></li>
-												<li><a href="index.html#"><i class="fa fa-pinterest"
-															aria-hidden="true"></i></a></li>
-											</ul>
-											<p>The government they survive as soldiers of fortune.</p>
-										</div> /.hover-content
-									</div> /.overlay
-								</div> /.image-box
-								<div class="text">
-									<h6>Jenilia D’sosa</h6>
-									<span>Marketing Lead</span>
-								</div>  /.text 
-							</div>  /.team-member 
-						</div>  /.col- 
--->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="team-member">
-								<div class="image-box">
-									<img src="images/team/7.jpg" alt="">
-									<div class="overlay">
-										<div class="hover-content">
-											<ul>
-												<li><a href="index.html#"><i class="fa fa-facebook"
-															aria-hidden="true"></i></a></li>
-												<li><a href="index.html#"><i class="fa fa-twitter"
-															aria-hidden="true"></i></a></li>
-												<li><a href="index.html#"><i class="fa fa-pinterest"
-															aria-hidden="true"></i></a></li>
-											</ul>
-											<p>The government they survive as soldiers of fortune.</p>
-										</div> <!-- /.hover-content -->
-									</div> <!-- /.overlay -->
-								</div> <!-- /.image-box -->
-								<div class="text">
-									<h6>Александр Бердюгин</h6>
-									<span>Комплаенс-директор</span>
-								</div> <!-- /.text -->
-							</div> <!-- /.team-member -->
-						</div> <!-- /.col- -->
+						@endforeach
 					</div> <!-- /.row -->
 				</div> <!-- /.wrapper -->
 			</div> <!-- /.container -->
