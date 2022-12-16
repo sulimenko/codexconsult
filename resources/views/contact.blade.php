@@ -41,7 +41,7 @@
                 <input type="email" placeholder="Email *" name="email" />
               </div>
               <div class="col-sm-6 col-12">
-                <input type="text" placeholder="Website *" name="web" />
+                <input type="text" placeholder="Вэб-сайт *" name="web" />
               </div>
               <div class="col-12">
                 <textarea placeholder="Сообщение" name="message"></textarea>

@@ -20,30 +20,27 @@
                         <li class="clearfix">
                             <img src="images/blog/1.jpg" alt="" class="float-left">
                             <div class="post float-left">
-                                <a href="blog-details.html">Till wanted by theam govern they survive as soldiers.</a>
-                                <div class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i> Feb 06, 2018</div>
+                                <a href="blog-details.html">Здесь могут быть размещены новости МФЦА или компании.</a>
+                                <div class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i> Январь 06, 2022</div>
                             </div>
                         </li>
                         <li class="clearfix">
                             <img src="images/blog/2.jpg" alt="" class="float-left">
                             <div class="post float-left">
-                                <a href="blog-details.html">World don't move to beat of just one drum.</a>
-                                <div class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i> Mar 20,
-                                    2018</div>
+                                <a href="blog-details.html">Здесь могут быть размещены новости МФЦА или компании.</a>
+                                <div class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i> Февраль 20,
+                                    2022</div>
                             </div>
                         </li>
                     </ul>
                 </div> <!-- /.footer-recent-post -->
                 <div class="col-xl-2 col-lg-3 col-sm-6 footer-list">
                     <h6 class="title">Решения</h6>
+                    <ul>    
+                        <li><a href="index.html#">Открытие бизнеса</a></li>
+                        <li><a href="index.html#">Услуги поддержки</a></li>
+                        <li><a href="index.html#">Юридическая консультация</a></li>
                     <ul>
-                        <li><a href="index.html#">Регистрация компании</a></li>
-                        <li><a href="index.html#">Релокация бизнеса</a></li>
-                        <li><a href="index.html#">Подбор команды</a></li>
-                        <li><a href="index.html#">Аутсорсинг задач</a></li>
-                        <li><a href="index.html#">Представительство</a></li>
-                        <li><a href="index.html#">Пост услуги</a></li>
-                    </ul>
                 </div> <!-- /.footer-list -->
                 <div class="col-xl-3 col-lg-2 col-sm-6 footer-newsletter">
                     <h6 class="title">Новости</h6>
@@ -60,7 +57,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <p>&copy; Copyrights 2022. All Rights Reserved.</p>
+                    <p>&copy; Copyrights 2022. Все права защищены.</p>
                 </div>
                 <div class="col-md-6 col-12">
                     <ul>

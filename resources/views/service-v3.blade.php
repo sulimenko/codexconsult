@@ -9,7 +9,7 @@
 <div class="theme-inner-banner section-spacing">
 	<div class="overlay">
 		<div class="container">
-			<h2>Услуги поддержки бизнеса</h2>
+			<h2>Юридическая консультация</h2>
 		</div> <!-- /.container -->
 	</div> <!-- /.overlay -->
 </div> <!-- /.theme-inner-banner -->
@@ -30,15 +30,13 @@
 			<div class="row">
 
 				@foreach([
-					['image' => '1.jpg', 'details' => 'Поиск офисного помещения' ],
-					['image' => '2.jpg', 'details' => 'Содействие в открытии счетов в банках РК' ],
-					['image' => '3.jpg', 'details' => 'Изготовление печати' ],
-					['image' => '4.jpg', 'details' => 'Правовая экспертиза документов аренды помещения' ],
-					['image' => '5.jpg', 'details' => 'Представительство в государственных органах' ],
-					['image' => '6.jpg', 'details' => 'Хранение документов' ],
-					['image' => '7.jpg', 'details' => 'Настройка получения уведомлений/писем' ],
-					['image' => '7.jpg', 'details' => 'Маркетинговые услуги' ],
-					['image' => '7.jpg', 'details' => 'Подбор команды' ],
+					['image' => '1.jpg', 'details' => 'Консультации по регулированию бизнеса в МФЦА' ],
+					['image' => '2.jpg', 'details' => 'Юридическое сопровождение' ],
+					['image' => '3.jpg', 'details' => 'Юридический аудит' ],
+					['image' => '4.jpg', 'details' => 'Представление в суде МФЦА' ],
+					['image' => '5.jpg', 'details' => 'Сопровождение по вопросам трудового и налогового законодательства' ],
+					['image' => '6.jpg', 'details' => 'Anti‐Money Laundering & Know Your Customer (Идентификация личности 
+					клиента и контроль его финансовых операции)' ],
 					] AS $each)
 				
 					@include('service')

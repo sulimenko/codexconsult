@@ -397,7 +397,7 @@
 									<div class="col-md-6">
 										<select class="form-control" id="exampleSelect1">
 											<option>Вид интересующей услуги?</option>
-											<option>Бизнес релокация в Казахстан</option>
+											<option>Открытие бизнеса в МФЦА</option>
 											<option>Услуги поддержки бизнеса</option>
 											<option>Юридическая консультация</option>
 											{{-- <option>Аутсорсинг задач</option> --}}
