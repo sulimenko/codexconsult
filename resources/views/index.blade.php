@@ -20,7 +20,7 @@
 				<div class="camera_caption">
 					<div class="container">
 						<p class="wow fadeInUp animated">Мы поможем Вам открыть и развивать бизнес в МФЦА</p>
-						<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">Бизнес<br>Это легко</h1>
+						<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">Бизнес<br>Это доступно</h1>
 						<a href="contact.html" class="theme-button-one wow fadeInUp animated"
 							data-wow-delay="0.39s">Контакты</a>
 					</div> <!-- /.container -->
@@ -30,7 +30,7 @@
 				<div class="camera_caption">
 					<div class="container">
 						<p class="wow fadeInUp animated">Мы поможем Вам открыть и развивать бизнес в МФЦА</p>
-						<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">Бизнес<br>Это легко</h1>
+						<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">Бизнес<br>Это Ваша цель</h1>
 						<a href="contact.html" class="theme-button-one wow fadeInUp animated"
 							data-wow-delay="0.39s">Контакты</a>
 					</div> <!-- /.container -->
@@ -57,24 +57,26 @@
 					<div class="main-content" style="background:#f6f6f6;">
 						<img src="images/icon/2.png" alt="">
 						<h4><a href="index.html#">Профессионализм</a></h4>
-						<p>Наша команда состоит из профессионалов, обладающих необходимыми компетенциями</p>
+						<p>Наша команда состоит из профессионалов, обладающих необходимыми компетенциями и опытом</p>
 					</div> <!-- /.main-content -->
 				</div> <!-- /.item -->
 				<div class="item">
 					<div class="main-content" style="background:#efefef;">
 						<img src="images/icon/3.png" alt="">
 						<h4><a href="index.html#">Оперативность</a></h4>
-						<p>Соблюдение плановых сроков реализации является одним из наших приоритетов</p>
+						<p>Соблюдение плановых сроков реализации является одним из наших основных приоритетов</p>
 					</div> <!-- /.main-content -->
 				</div> <!-- /.item -->
 				<div class="item">
 					<div class="main-content" style="background:#e9e9e9;">
 						<img src="images/icon/4.png" alt="">
 						<h4><a href="index.html#">Конфиденциальность</a></h4>
-						<p>Информация Клиента не подлежащей огласке без согласия её обладателя</p>
+						<p>Информация Клиента не подлежит огласке, без предварительного согласия её обладателя</p>
 					</div> <!-- /.main-content -->
 				</div> <!-- /.item -->
 			</div> <!-- /.top-features-slide -->
+			</div> <!-- /.top-features-slide -->
+		</div> <!-- /.top-features-slide -->
 		</div> <!-- /.top-feature -->
 
 
@@ -92,7 +94,7 @@
 							<div class="theme-title-one">
 								<h2>О Компании</h2>
 								<p>Владелец бизнеса всегда сконцентрирован на основных задачах и аккумулировании
-									прибыли. Наша Компания поможет провести соответствующую экспертизу, получить резидентство в МФЦА и лицензии на финансовые услуги.</p>
+									прибыли. Наша Компания поможет Вам провести соответствующую экспертизу, получить резидентство и лицензии на финансовые услуги в МФЦА.</p>
 								<p>Наша команда профессионалов готова составить сценарий развития Вашего бизнеса и
 									подготовить все необходимое к его началу.</p>
 							</div> <!-- /.theme-title-one -->
@@ -149,9 +151,9 @@
 							<div class="single-service">
 								<div class="img-box"><img src="images/home/3.jpg" alt=""></div>
 								<div class="text">
-									<h5><a href="service-details.html">Регистрация</a></h5>
-									<p>Документы под ключ.</p>
-									<a href="service-details.html" class="read-more">читать... <i
+									<h5><a href="service-details.html">Регистрация юр лица</a></h5>
+									{{-- <p>Документы под ключ.</p> --}}
+									<a href="service-details.html" class="read-more">подробнее... <i
 											class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-service -->
@@ -160,9 +162,9 @@
 							<div class="single-service">
 								<div class="img-box"><img src="images/home/4.jpg" alt=""></div>
 								<div class="text">
-									<h5><a href="service-details.html">Релокация бизнеса</a></h5>
-									<p>Полное сопровождение</p>
-									<a href="service-details.html" class="read-more">читать... <i
+									<h5><a href="service-details.html">Разработка документов</a></h5>
+									{{-- <p>Полное сопровождение</p> --}}
+									<a href="service-details.html" class="read-more">подробнее... <i
 											class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-service -->
@@ -171,9 +173,9 @@
 							<div class="single-service">
 								<div class="img-box"><img src="images/home/5.jpg" alt=""></div>
 								<div class="text">
-									<h5><a href="service-details.html">Подбор команды</a></h5>
-									<p>Консультация и подбор</p>
-									<a href="service-details.html" class="read-more">читать... <i
+									<h5><a href="service-details.html">Юридическое сопровождение</a></h5>
+									{{-- <p>Консультация и подбор</p> --}}
+									<a href="service-details.html" class="read-more">подробнее... <i
 											class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-service -->
@@ -182,9 +184,9 @@
 							<div class="single-service">
 								<div class="img-box"><img src="images/home/6.jpg" alt=""></div>
 								<div class="text">
-									<h5><a href="service-details.html">Аутсорсинг задач</a></h5>
-									<p>Снижение нагрузки</p>
-									<a href="service-details.html" class="read-more">читать... <i
+									<h5><a href="service-details.html">Получение Лицензии в МФЦА</a></h5>
+									{{-- <p>Снижение нагрузки</p> --}}
+									<a href="service-details.html" class="read-more">подробнее... <i
 											class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-service -->
@@ -193,9 +195,9 @@
 							<div class="single-service">
 								<div class="img-box"><img src="images/home/7.jpg" alt=""></div>
 								<div class="text">
-									<h5><a href="service-details.html">Пост услуги</a></h5>
-									<p>Поддержка бизнеса</p>
-									<a href="service-details.html" class="read-more">читать... <i
+									<h5><a href="service-details.html">Открытие счетов в банках РК</a></h5>
+									{{-- <p>Поддержка бизнеса</p> --}}
+									<a href="service-details.html" class="read-more">подробнее... <i
 											class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-service -->
@@ -204,9 +206,9 @@
 							<div class="single-service">
 								<div class="img-box"><img src="images/home/8.jpg" alt=""></div>
 								<div class="text">
-									<h5><a href="service-details.html">Содействие</a></h5>
-									<p>Выступать в качестве</p>
-									<a href="service-details.html" class="read-more">читать... <i
+									<h5><a href="service-details.html">Anti‐Money Laundering (AML)</a></h5>
+									{{-- <p>Выступать в качестве</p> --}}
+									<a href="service-details.html" class="read-more">подробнее... <i
 											class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-service -->
@@ -234,30 +236,32 @@
 						<div class="bg">
 							<div class="testimonial-slider">
 								<div class="item">
-									<p>“ A tale of a fateful trip that started from this tropic port aboard this tiny
-										ship today still wanted by the government they survive as soldiers of fortune to
-										a deluxe apartment in the sky moving on up to the east side a family. ”</p>
+									<p>“ Процесс создания и регистрации компании в Казахстане иметь определенные сложности.
+										Поэтому мы придумали данный сервис, который поможет Вам избежать реализации возможных 
+										ошибок, а также учесть некоторые особенности правоприменительной практики. ”</p>
 									<div class="name">
-										<h6>Shawn Michael</h6>
-										<span>Founder, Mnc Inc.</span>
+										<h6>Алмаз Абраимов</h6>
+										<span>Генеральный директор</span>
 									</div> <!-- /.name -->
 								</div> <!-- /.item -->
 								<div class="item">
-									<p>“ A tale of a fateful trip that started from this tropic port aboard this tiny
-										ship today still wanted by the government they survive as soldiers of fortune to
-										a deluxe apartment in the sky moving on up to the east side a family. ”</p>
+									<p>“ Услугами проффесиональной консультации пользуются не только крупные, но и мелкие предприятия. Это 
+										уже сложившийся мировой тренд. А взвешенная ценовая политика позволяет
+										нашим Клиентам получать максимальную эффективность в данных взаимоотношениях. ”</p>
 									<div class="name">
-										<h6>Rashed Ka.</h6>
-										<span>Founder, Mnc Inc.</span>
+										<h6>Алексей Лысенко</h6>
+										<span>Директор по продажам</span>
 									</div> <!-- /.name -->
 								</div> <!-- /.item -->
 								<div class="item">
-									<p>“ A tale of a fateful trip that started from this tropic port aboard this tiny
-										ship today still wanted by the government they survive as soldiers of fortune to
-										a deluxe apartment in the sky moving on up to the east side a family. ”</p>
+									<p>“ Современный темп ведения бизнеса заставляет предпринимателей единовременно 
+										решать множество задач, напрямую не связанных с их основной деятельностью. 
+										Приходится заниматься финансами, кадрами, бухгалтерскими, юридическими  и иными вопросами. 
+										Когда на рынке есть оптимальные варианты решения, это как глоток свежего воздуха для предпринимателя 
+										. ”</p>
 									<div class="name">
-										<h6>Mahfuz Riad</h6>
-										<span>Founder, Mnc Inc.</span>
+										<h6>Людмила Нэм</h6>
+										<span>Коммерческий директор</span>
 									</div> <!-- /.name -->
 								</div> <!-- /.item -->
 							</div> <!-- /.testimonial-slider -->
@@ -283,10 +287,10 @@
 				<div class="wrapper">
 					<div class="row">
 						@foreach([
-							['image' => '6.jpg', 'phrase' => 'The government they survive as soldiers of fortune.', 'fio' => 'Алексей Лысенко', 'position' => 'Директор по продажам'],
-							['image' => '7.jpg', 'phrase' => 'The government they survive as soldiers of fortune.', 'fio' => 'Александр Бердюгин', 'position' => 'Комплаенс-директор'],
-							['image' => '5.jpg', 'phrase' => 'The government they survive as soldiers of fortune.', 'fio' => 'Алмаз Абраимов', 'position' => 'Генеральный директор'],
-							// ['image' => '3.jpg', 'phrase' => 'The government they survive as soldiers of fortune.', 'fio' => 'Алмаз Абраимов', 'position' => 'Генеральный директор'],
+							['image' => '1.jpg', 'phrase' => 'lysenko@codexconsult.kz.', 'fio' => 'Алексей Лысенко', 'position' => 'Директор по продажам'],
+							['image' => '2.jpg', 'phrase' => 'abraimov@codexconsult.kz', 'fio' => 'Алмаз Абраимов', 'position' => 'Генеральный директор'],
+							['image' => '4.jpg', 'phrase' => 'berdyugin@codexconsult.kz', 'fio' => 'Александр Бердюгин', 'position' => 'Комплаенс-директор'],
+							['image' => '3.jpg', 'phrase' => 'nem@codexconsult.kz', 'fio' => 'Людмила Нэм', 'position' => 'Коммерческий директор'],
 						] AS $each)
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="team-member">
@@ -308,7 +312,7 @@
 								</div> <!-- /.image-box -->
 								<div class="text">
 									<h6>{{ $each['fio'] }}</h6>
-									<span>{{ $each['position'] }}м</span>
+									<span>{{ $each['position'] }}</span>
 								</div> <!-- /.text -->
 							</div> <!-- /.team-member -->
 						</div> <!-- /.col- -->
@@ -350,14 +354,14 @@
 								<div class="single-counter-box">
 									<div class="number"><span class="timer" data-from="0" data-to="60" data-speed="1200"
 											data-refresh-interval="5">0</span></div>
-									<p>Стран мира представлены в МФЦА</p>
+									<p>Стран представлены в МФЦА</p>
 								</div> <!-- /.single-counter-box -->
 							</div> <!-- /.col- -->
 							<div class="col-md-3 col-6">
 								<div class="single-counter-box">
 									<div class="number"><span class="timer" data-from="0" data-to="1" data-speed="1200"
 											data-refresh-interval="5">0</span>млрд $</div>
-									<p>Активы финансового сектора превысили</p>
+									<p>Активы финансового сектора</p>
 								</div> <!-- /.single-counter-box -->
 							</div> <!-- /.col- -->
 						</div> <!-- /.row -->
@@ -393,10 +397,10 @@
 									<div class="col-md-6">
 										<select class="form-control" id="exampleSelect1">
 											<option>Вид интересующей услуги?</option>
-											<option>Регистрация компании</option>
-											<option>Релокация бизнеса</option>
-											<option>Подбор команды</option>
-											<option>Аутсорсинг задач</option>
+											<option>Бизнес релокация в Казахстан</option>
+											<option>Услуги поддержки бизнеса</option>
+											<option>Юридическая консультация</option>
+											{{-- <option>Аутсорсинг задач</option> --}}
 										</select>
 									</div>
 									<div class="col-12"><textarea placeholder="Сообщение"></textarea></div>

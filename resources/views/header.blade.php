@@ -34,7 +34,7 @@
                         <ul class="clearfix">
                             <li class="active"><a href="index">Главная</a>
                                 <ul class="dropdown">
-                                    <li><a href="index">Главная версия 1</a></li>
+                                    {{-- <li><a href="index">Главная версия 1</a></li> --}}
                                     <!-- <li><a href="index-2">Главная версия 2</a></li> -->
                                 </ul>
                             </li>
@@ -57,10 +57,10 @@
                         <li><a href="index">Услуги</a>
                             <ul class="dropdown">
                                 <li><a href="service">Релокация в Казахстан</a></li>
-                                <li><a href="service">Команда под ключ</a></li>
-                                <li><a href="service">Аутсорсинг задач</a></li>
+                                <li><a href="service">Услуги поддержки</a></li>
+                                <li><a href="service">Юридическая консультация</a></li>
                                 <!-- <li><a href="service-v2">Service version two</a></li> -->
-                                <li><a href="service-details">Пост услуги</a></li>
+                                {{-- <li><a href="service-details">Пост услуги</a></li> --}}
                             </ul>
                         </li>
                         <!-- <li><a href="index">Portfolio</a>

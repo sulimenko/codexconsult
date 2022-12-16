@@ -20,10 +20,8 @@
                         <li class="clearfix">
                             <img src="images/blog/1.jpg" alt="" class="float-left">
                             <div class="post float-left">
-                                <a href="blog-details.html">Till wanted by theam govern they survive as
-                                    soldiers.</a>
-                                <div class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i> Feb 06,
-                                    2018</div>
+                                <a href="blog-details.html">Till wanted by theam govern they survive as soldiers.</a>
+                                <div class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i> Feb 06, 2018</div>
                             </div>
                         </li>
                         <li class="clearfix">

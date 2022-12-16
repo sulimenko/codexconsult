@@ -67,7 +67,7 @@
         <i class="fa fa-times" aria-hidden="true"></i>
       </button>
       <div class="wrapper">
-        <p>Your message was sent successfully.</p>
+        <p>Ваше сообщение отправлено успешно.</p>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@
         <i class="fa fa-times" aria-hidden="true"></i>
       </button>
       <div class="wrapper">
-        <p>Sorry!Something Went Wrong.</p>
+        <p>Извините! Что-то пошло нет так.</p>
       </div>
     </div>
   </div>
