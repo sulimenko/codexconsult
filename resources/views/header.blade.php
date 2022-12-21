@@ -56,10 +56,9 @@
                         </li>
                         <li><a href="index">Услуги</a>
                             <ul class="dropdown">
-                                <li><a href="service">Открытие бизнеса в МФЦА</a></li>
-                                <li><a href="service">Услуги поддержки</a></li>
-                                <li><a href="service">Юридическая консультация</a></li>
-                                <!-- <li><a href="service-v2">Service version two</a></li> -->
+                                <li><a href="service-v1">Открытие бизнеса в МФЦА</a></li>
+                                <li><a href="service-v2">Услуги поддержки бизнеса</a></li>
+                                <li><a href="service-v3">Юридическая консультация</a></li>
                                 {{-- <li><a href="service-details">Пост услуги</a></li> --}}
                             </ul>
                         </li>
