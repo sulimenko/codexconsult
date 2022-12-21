@@ -19,7 +19,7 @@
                         <h6>Почта:</h6>
                         <p>suppor@codexconsult.kz</p>
                     </li>
-                    <li class="quotes"><a href="index">Задать вопрос</a></li>
+                {{--<li class="quotes"><a href="index">Задать вопрос</a></li> --}}
                 </ul>
             </div> <!-- /.address-wrapper -->
         </div> <!-- /.container -->
@@ -33,10 +33,10 @@
                     <nav id="mega-menu-holder" class="clearfix">
                         <ul class="clearfix">
                             <li class="active"><a href="index">Главная</a>
-                                <ul class="dropdown">
-                                    {{-- <li><a href="index">Главная версия 1</a></li> --}}
-                                    <!-- <li><a href="index-2">Главная версия 2</a></li> -->
-                                </ul>
+                            {{-- <ul class="dropdown">
+                                     <li><a href="index">Главная версия 1</a></li>
+                                    <li><a href="index-2">Главная версия 2</a></li>
+                                </ul> --}}
                             </li>
                             <li><a href="index">Компания</a>
                                 <ul class="dropdown">
@@ -62,25 +62,25 @@
                                 {{-- <li><a href="service-details">Пост услуги</a></li> --}}
                             </ul>
                         </li>
-                        <!-- <li><a href="index">Portfolio</a>
+                        {{-- <li><a href="index">Portfolio</a>
                                     <ul class="dropdown">
                                         <li><a href="project">project</a></li>
                                         <li><a href="project-details">Project details</a></li>
                                     </ul>
-                                </li> -->
-                        <li><a href="index">Пресс центр</a>
+                                </li> --}}
+                        {{-- <li><a href="index">Пресс центр</a>
                             <ul class="dropdown">
                                 <li><a href="blog">Новости МФЦА</a></li>
                                 <li><a href="blog-grid">Новости Компании</a></li>
                                 <li><a href="blog-details">Вопросы-Ответы АФСА</a></li>
                             </ul>
-                        </li>
+                        </li> --}}
                         <li><a href="contact">Контакты</a></li>
                         </ul>
                     </nav> <!-- /#mega-menu-holder -->
                 </div> <!-- /.menu-wrapper -->
 
-                <div class="right-widget float-right">
+            {{-- <div class="right-widget float-right">
                     <ul>
                         <li class="social-icon">
                             <ul>
@@ -108,7 +108,7 @@
                             </div>
                         </li>
                     </ul>
-                </div> <!-- /.right-widget -->
+                </div> <!-- /.right-widget --> --}}
             </div> <!-- /.bg-wrapper -->
         </div> <!-- /.container -->
     </div> <!-- /.theme-menu-wrapper -->

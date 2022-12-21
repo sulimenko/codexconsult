@@ -7,14 +7,22 @@
     <div class="top-footer">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-sm-6 about-widget">
+                <div class="col-xl-6 col-lg-3 col-sm-6 footer-list">
+                    <h6 class="title">Решения</h6>
+                    <ul>    
+                        <li><a href="index.html#">Открытие бизнеса</a></li>
+                        <li><a href="index.html#">Услуги поддержки</a></li>
+                        <li><a href="index.html#">Юридическая консультация</a></li>
+                    <ul>
+                </div> <!-- /.footer-list -->
+                <div class="col-xl-6 col-lg-4 col-sm-6 about-widget">
                     <h6 class="title">КОНСУЛЬТАЦИЯ</h6>
                     <p>Вы решили выбрать нашу Компанию для решения сложных задачь, но остались вопросы. Позвоните, и мы обязательно
                         сможем найти ответы.</p>
                     <div class="queries"><i class="flaticon-phone-call"></i> Остались вопросы: <a
                             href="index.html#">+7 727 346  9025, +7 707 350 7550</a></div>
                 </div> <!-- /.about-widget -->
-                <div class="col-xl-4 col-lg-3 col-sm-6 footer-recent-post">
+            {{--<div class="col-xl-4 col-lg-3 col-sm-6 footer-recent-post">
                     <h6 class="title">ПУБЛИКАЦИИ</h6>
                     <ul>
                         <li class="clearfix">
@@ -33,23 +41,15 @@
                             </div>
                         </li>
                     </ul>
-                </div> <!-- /.footer-recent-post -->
-                <div class="col-xl-2 col-lg-3 col-sm-6 footer-list">
-                    <h6 class="title">Решения</h6>
-                    <ul>    
-                        <li><a href="index.html#">Открытие бизнеса</a></li>
-                        <li><a href="index.html#">Услуги поддержки</a></li>
-                        <li><a href="index.html#">Юридическая консультация</a></li>
-                    <ul>
-                </div> <!-- /.footer-list -->
-                <div class="col-xl-3 col-lg-2 col-sm-6 footer-newsletter">
+                </div> <!-- /.footer-recent-post --> --}}
+            {{--<div class="col-xl-3 col-lg-2 col-sm-6 footer-newsletter">
                     <h6 class="title">Новости</h6>
                     <form action="index.html#">
                         <input type="text" placeholder="Имя *">
                         <input type="email" placeholder="Email *">
                         <button class="theme-button-one">Подписаться</button>
                     </form>
-                </div>
+                </div> --}}
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </div> <!-- /.top-footer -->

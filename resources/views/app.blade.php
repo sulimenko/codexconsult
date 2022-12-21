@@ -93,7 +93,7 @@
 		<!-- Fancybox -->
 		<script src="{{ asset('vendor/fancybox/dist/jquery.fancybox.min.js') }}"></script>
 
-        @if (Route::current()->parameters['view'] === 'contact')
+        @if (!empty(Route::current()->parameters['view']) && Route::current()->parameters['view'] === 'contact')
             <!-- Validation -->
             <script type="text/javascript" src="{{ asset('vendor/contact-form/validate.js') }}"></script>
             <script type="text/javascript" src="{{ asset('vendor/contact-form/jquery.form.js') }}"></script>
