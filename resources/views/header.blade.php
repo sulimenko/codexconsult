@@ -17,7 +17,7 @@
                     <li class="address">
                         <i class="icon flaticon-multimedia"></i>
                         <h6>Почта:</h6>
-                        <p>suppor@codexconsult.kz</p>
+                        <p>info@codexconsult.kz</p>
                     </li>
                 {{--<li class="quotes"><a href="index">Задать вопрос</a></li> --}}
                 </ul>
