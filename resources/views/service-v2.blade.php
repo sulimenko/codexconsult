@@ -93,7 +93,7 @@
 							<div class="col-md-6"><input type="email" placeholder="Email *"></div>
 							<div class="col-md-6">
 								<select class="form-control" id="exampleSelect1">
-									<option>Вид интересующей услуги?</option>
+									<option>Интересующие услуги?</option>
 									<option>Открытие бизнеса в МФЦА</option>
 									<option>Услуги поддержки бизнеса</option>
 									<option>Юридическая консультация</option>
