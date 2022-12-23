@@ -52,34 +52,31 @@
 /*   38 - Compnay Branch Address   */
 /*   39 - Shop Page   */
 
-
-
 /**
 * Importing necessary  Styles.
 **/
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900|Source+Sans+Pro:300,400,600,700,900');
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900|Source+Sans+Pro:300,400,600,700,900");
 /*----bootstrap css ----- */
-@import url('../vendor/bootstrap/css/bootstrap.min.css');
+@import url("../vendor/bootstrap/css/bootstrap.min.css");
 /*----camera-slider---*/
-@import url('../vendor/Camera-master/css/camera.css');
+@import url("../vendor/Camera-master/css/camera.css");
 /*------- menu ------*/
-@import url('../vendor/menu/dist/css/slimmenu.css');
+@import url("../vendor/menu/dist/css/slimmenu.css");
 /*----font awesome -------*/
-@import url('../fonts/font-awesome/css/font-awesome.min.css');
+@import url("../fonts/font-awesome/css/font-awesome.min.css");
 /*----owl-carousel css----*/
-@import url('../vendor/owl-carousel/owl.carousel.css');
-@import url('../vendor/owl-carousel/owl.theme.css');
+@import url("../vendor/owl-carousel/owl.carousel.css");
+@import url("../vendor/owl-carousel/owl.theme.css");
 /*-------- animated css ------*/
-@import url('../vendor/WOW-master/css/libs/animate.css');
+@import url("../vendor/WOW-master/css/libs/animate.css");
 /*--------- flat-icon ---------*/
-@import url('../fonts/icon/font/flaticon.css');
+@import url("../fonts/icon/font/flaticon.css");
 /*----------- Fancybox css -------*/
-@import url('../vendor/fancybox/dist/jquery.fancybox.min.css');
+@import url("../vendor/fancybox/dist/jquery.fancybox.min.css");
 /*----Language Switcher---*/
-@import url('../vendor/language-switcher/polyglot-language-switcher.css');
+@import url("../vendor/language-switcher/polyglot-language-switcher.css");
 /*------------- Map -------------*/
-@import url('../vendor/sanzzy-map/dist/snazzy-info-window.min.css');
-
+@import url("../vendor/sanzzy-map/dist/snazzy-info-window.min.css");
 
 /*** 
 
@@ -127,32 +124,37 @@
 .scroll-top:after {
   position: absolute;
   z-index: -1;
-  content: '';
+  content: "";
   top: 100%;
   left: 5%;
   height: 10px;
   width: 90%;
   opacity: 1;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
 }
 
 /*______________________ Global stlye ___________________*/
 
 @font-face {
-  font-family: 'font-awesome';
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'),
+  font-family: "font-awesome";
+  src: url("../fonts/font-awesome/fonts/fontawesome-webfont.ttf");
+  src: url("../fonts/font-awesome/fonts/fontawesome-webfont.eot"),
     /* IE9 Compat Modes */
-    url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'),
+      url("../fonts/font-awesome/fonts/fontawesome-webfont.woff2")
+      format("woff2"),
     /* Super Modern Browsers */
-    url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'),
+      url("../fonts/font-awesome/fonts/fontawesome-webfont.woff") format("woff"),
     /* Pretty Modern Browsers */
-    url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg');
+      url("../fonts/font-awesome/fonts/fontawesome-webfont.svg") format("svg");
   /* Legacy iOS */
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   color: #555555;
   font-size: 18px;
@@ -181,7 +183,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: #232323;
 }
 
@@ -228,7 +230,7 @@ body a {
   text-decoration: none;
   color: #232323;
   display: inline-block;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 a:hover,
@@ -294,7 +296,7 @@ h6 a,
 .header-one .theme-menu-wrapper .right-widget .social-icon li a,
 #mega-menu-holder ul.dropdown li a:before,
 .theme-button-one,
-#theme-main-banner .camera_pag .camera_pag_ul li>span,
+#theme-main-banner .camera_pag .camera_pag_ul li > span,
 .top-feature .main-content,
 .service-style-one .single-service .text,
 .service-style-one .single-service,
@@ -324,14 +326,14 @@ h6 a,
 .shop-page .single-product .product-name .add-to-cart,
 .shop-page .single-product .product-name .add-to-cart a,
 .shop-details .product-review-tab .nav-tabs .nav-link {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .tran4s,
 .our-solution .single-solution-block .icon,
 .our-case .single-case-block .hover-content .text,
 .our-blog .single-blog .image-box img {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 /*----------------------- Theme Color File -------------------*/
@@ -350,10 +352,10 @@ h6 a,
 .theme-counter h6,
 .single-counter-box .number,
 .theme-footer-one .top-footer .footer-newsletter .theme-button-one,
-.header-two #mega-menu-holder>ul>li.active>a,
-.header-two #mega-menu-holder>ul>li:hover>a,
-.header-two #mega-menu-holder>ul>li.active>.sub-toggle,
-.header-two #mega-menu-holder>ul>li:hover>.sub-toggle,
+.header-two #mega-menu-holder > ul > li.active > a,
+.header-two #mega-menu-holder > ul > li:hover > a,
+.header-two #mega-menu-holder > ul > li.active > .sub-toggle,
+.header-two #mega-menu-holder > ul > li:hover > .sub-toggle,
 .callout-banner .theme-button-one,
 .our-solution .single-solution-block:hover h5 a,
 .faq-section .wrapper .img-box .play,
@@ -368,7 +370,12 @@ h6 a,
 .core-values .single-value-block:hover .text h5 a,
 .theme-sidebar-one .service-categories ul li a:hover,
 .theme-sidebar-one .service-categories ul li.active a,
-.service-details .service-content .presentation-section .best-list-item li .icon,
+.service-details
+  .service-content
+  .presentation-section
+  .best-list-item
+  li
+  .icon,
 .project-details .project-details-sidebar .social-icon li a:hover,
 .blog-sidebar .sidebar-categories ul li a:hover,
 .blog-sidebar .sidebar-recent-post li .post a:hover,
@@ -388,12 +395,12 @@ h6 a,
 .scroll-top,
 .header-one .top-header .address-wrapper .quotes a:hover,
 .theme-menu-wrapper .right-widget .search-option form button,
-#mega-menu-holder ul.dropdown li:hover>a:before,
+#mega-menu-holder ul.dropdown li:hover > a:before,
 .theme-button-one,
 #theme-main-banner .camera_caption .theme-button-one:hover,
 .callout-banner.no-bg .theme-button-one,
-#theme-main-banner .camera_pag .camera_pag_ul li.cameracurrent>span,
-#theme-main-banner .camera_pag .camera_pag_ul li:hover>span,
+#theme-main-banner .camera_pag .camera_pag_ul li.cameracurrent > span,
+#theme-main-banner .camera_pag .camera_pag_ul li:hover > span,
 .service-style-one .contact-text h5:before,
 .testimonial-section .owl-theme .owl-dots .owl-dot.active span,
 .testimonial-section .owl-theme .owl-dots .owl-dot:hover span,
@@ -448,7 +455,7 @@ body .theme-button-one:hover {
 }
 
 .theme-title-one h2:before {
-  content: '';
+  content: "";
   width: 40px;
   height: 4px;
   border-radius: 10px;
@@ -535,7 +542,7 @@ body .theme-button-one:hover {
 }
 
 .header-one .top-header .address-wrapper .address:first-child:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   right: 0;
@@ -565,8 +572,8 @@ body .theme-button-one:hover {
 }
 
 #polyglotLanguageSwitcher span.trigger:before {
-  content: '';
-  font-family: 'font-awesome';
+  content: "";
+  font-family: "font-awesome";
   position: absolute;
   color: #fff;
   top: 0;
@@ -574,7 +581,7 @@ body .theme-button-one:hover {
 }
 
 #polyglotLanguageSwitcher a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
   font-size: 15px;
   color: #fff;
@@ -643,7 +650,7 @@ body .theme-button-one:hover {
 }
 
 .theme-menu-wrapper .right-widget .cart-icon a span {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   position: absolute;
   width: 15px;
   height: 15px;
@@ -712,23 +719,23 @@ body .theme-button-one:hover {
 }
 
 /*------------------------ Theme menu Two --------------------*/
-.header-two #mega-menu-holder>ul>li>a,
+.header-two #mega-menu-holder > ul > li > a,
 .header-two #mega-menu-holder li .sub-toggle,
-.header-two #mega-menu-holder>ul>li>a:before {
+.header-two #mega-menu-holder > ul > li > a:before {
   color: #555555;
 }
 
-.header-two #mega-menu-holder>ul>li>a {
+.header-two #mega-menu-holder > ul > li > a {
   padding-top: 38px;
   padding-bottom: 38px;
 }
 
-.header-two #mega-menu-holder>ul>li>a:before,
+.header-two #mega-menu-holder > ul > li > a:before,
 .header-two #mega-menu-holder li .sub-toggle {
   line-height: 97px;
 }
 
-.header-two #mega-menu-holder li>ul.dropdown li:first-child {
+.header-two #mega-menu-holder li > ul.dropdown li:first-child {
   border-top: 1px solid rgba(0, 0, 0, 0.04);
 }
 
@@ -835,13 +842,13 @@ body .theme-button-one:hover {
 }
 
 #theme-main-banner .camera_overlayer {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 26, 27, 0.10);
+  background: rgba(0, 26, 27, 0.1);
 }
 
 #theme-main-banner .main-container {
@@ -860,7 +867,7 @@ body .theme-button-one:hover {
   transform: translateY(-50%);
 }
 
-#theme-main-banner .camera_caption>div {
+#theme-main-banner .camera_caption > div {
   background: transparent;
   position: absolute;
   width: 100%;
@@ -947,7 +954,7 @@ body .theme-button-one:hover {
 }
 
 .top-feature .main-content h4:before {
-  content: '';
+  content: "";
   width: 40px;
   height: 4px;
   border-radius: 10px;
@@ -1090,7 +1097,7 @@ body .theme-button-one:hover {
 }
 
 .service-style-one .contact-text h5:before {
-  content: '';
+  content: "";
   width: 100%;
   height: 1px;
   position: absolute;
@@ -1126,8 +1133,8 @@ body .theme-button-one:hover {
 }
 
 .testimonial-section .wrapper .bg:before {
-  content: '';
-  font-family: 'font-awesome';
+  content: "";
+  font-family: "font-awesome";
   position: absolute;
   top: 30px;
   right: -10px;
@@ -1156,7 +1163,7 @@ body .theme-button-one:hover {
 }
 
 .testimonial-section .wrapper .name:before {
-  content: '“';
+  content: "“";
   color: #f1f1f1;
   font-size: 120px;
   font-weight: 900;
@@ -1297,7 +1304,7 @@ body .theme-button-one:hover {
 }
 
 .single-counter-box .number {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
   font-size: 40px;
 }
@@ -1368,7 +1375,7 @@ body .theme-button-one:hover {
 }
 
 .theme-form-one .theme-button-one {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 /*------------------- Partner Slider ------------------*/
@@ -1425,7 +1432,7 @@ body .theme-button-one:hover {
 }
 
 .theme-footer-one .top-footer .about-widget .queries a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 19px;
   color: #fff;
 }
@@ -1448,7 +1455,7 @@ body .theme-button-one:hover {
 }
 
 .theme-footer-one .top-footer .footer-recent-post li .post a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 17px;
   color: #fff;
   line-height: 24px;
@@ -1480,8 +1487,8 @@ body .theme-button-one:hover {
 }
 
 .theme-footer-one .top-footer .footer-list ul li:before {
-  content: '';
-  font-family: 'font-awesome';
+  content: "";
+  font-family: "font-awesome";
   font-size: 10px;
   color: #9ca6bf;
   position: absolute;
@@ -1491,7 +1498,7 @@ body .theme-button-one:hover {
 }
 
 .theme-footer-one .top-footer .footer-list ul li a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 17px;
   color: #9ca6bf;
 }
@@ -1573,7 +1580,7 @@ body .theme-button-one:hover {
 }
 
 .theme-footer-one .bottom-footer ul li a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 17px;
   color: #9ca6bf;
   margin-left: 35px;
@@ -1625,8 +1632,8 @@ body .theme-button-one:hover {
 }
 
 .theme-footer-two .top-footer .footer-list ul li:before {
-  content: '';
-  font-family: 'font-awesome';
+  content: "";
+  font-family: "font-awesome";
   font-size: 10px;
   color: #9ca6bf;
   position: absolute;
@@ -1636,7 +1643,7 @@ body .theme-button-one:hover {
 }
 
 .theme-footer-two .top-footer .footer-list ul li a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 17px;
   color: #9ca6bf;
 }
@@ -1682,7 +1689,7 @@ body .theme-button-one:hover {
 }
 
 .theme-footer-two .top-footer .contact-widget ul li a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #9ca6bf;
 }
 
@@ -1728,7 +1735,7 @@ body .theme-button-one:hover {
 }
 
 .callout-banner p:before {
-  content: '';
+  content: "";
   width: 4px;
   height: 93%;
   background: #9ca6bc;
@@ -2129,7 +2136,7 @@ body .theme-button-one:hover {
 
 .our-blog .single-blog:hover .image-box img {
   -webkit-transform: scale3D(1.1, 1.1, 1);
-  transform: scale3D(1.1, 1.1, 1)
+  transform: scale3D(1.1, 1.1, 1);
 }
 
 .our-blog .single-blog .image-box .overlay {
@@ -2145,7 +2152,7 @@ body .theme-button-one:hover {
 .our-blog .single-blog .image-box .overlay .date {
   line-height: 25px;
   border-radius: 5px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   color: #fff;
   padding: 0 18px;
@@ -2476,7 +2483,11 @@ body .theme-button-one:hover {
   padding: 0 0 4px 90px;
 }
 
-.service-details .service-content .presentation-section .best-list-item li:last-child {
+.service-details
+  .service-content
+  .presentation-section
+  .best-list-item
+  li:last-child {
   margin-bottom: 0;
 }
 
@@ -2484,7 +2495,12 @@ body .theme-button-one:hover {
   margin-bottom: 10px;
 }
 
-.service-details .service-content .presentation-section .best-list-item li .icon {
+.service-details
+  .service-content
+  .presentation-section
+  .best-list-item
+  li
+  .icon {
   position: absolute;
   top: -10px;
   left: 0;
@@ -2524,8 +2540,8 @@ body .theme-button-one:hover {
 }
 
 .service-details .service-content .market-growth ul li:before {
-  content: '';
-  font-family: 'font-awesome';
+  content: "";
+  font-family: "font-awesome";
   font-size: 12px;
   color: #232323;
   line-height: 34px;
@@ -2626,15 +2642,15 @@ body .theme-button-one:hover {
 
 .blog-sidebar .sidebar-categories ul li a {
   color: #555555;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   line-height: 35px;
   position: relative;
   padding-left: 25px;
 }
 
 .blog-sidebar .sidebar-categories ul li a:before {
-  content: '';
-  font-family: 'font-awesome';
+  content: "";
+  font-family: "font-awesome";
   font-size: 12px;
   position: absolute;
   line-height: 35px;
@@ -2660,7 +2676,7 @@ body .theme-button-one:hover {
 }
 
 .blog-sidebar .sidebar-recent-post li .post a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #232323;
   line-height: 24px;
   margin-top: -5px;
@@ -2681,15 +2697,15 @@ body .theme-button-one:hover {
 
 .blog-sidebar .sidebar-archives ul li a {
   color: #555555;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   line-height: 32px;
   position: relative;
   padding-left: 28px;
 }
 
 .blog-sidebar .sidebar-archives ul li a:before {
-  content: '';
-  font-family: 'font-awesome';
+  content: "";
+  font-family: "font-awesome";
   font-size: 14px;
   position: absolute;
   line-height: 32px;
@@ -2708,7 +2724,7 @@ body .theme-button-one:hover {
 
 .blog-sidebar .sidebar-tags ul li a {
   color: #555555;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 17px;
   line-height: 28px;
   border: 1px solid #e1e1e1;
@@ -2779,7 +2795,7 @@ body .theme-button-one:hover {
 .blog-details .share-option .social-icon li {
   display: inline-block;
   vertical-align: middle;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   color: #232323;
 }
@@ -2791,7 +2807,7 @@ body .theme-button-one:hover {
 }
 
 .blog-details .share-option .tag-meta li a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   color: #555555;
 }
@@ -2929,7 +2945,7 @@ body .theme-button-one:hover {
 }
 
 #error p {
-  color: #C9182B;
+  color: #c9182b;
 }
 
 #error button,
@@ -3136,7 +3152,14 @@ body .theme-button-one:hover {
   display: inline-block;
 }
 
-.shop-details .product-details .product-tab .product-thumbnail .nav-tabs li a img {
+.shop-details
+  .product-details
+  .product-tab
+  .product-thumbnail
+  .nav-tabs
+  li
+  a
+  img {
   border-radius: 5px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.12);
 }
@@ -3168,7 +3191,7 @@ body .theme-button-one:hover {
 }
 
 .shop-details .product-details .product-info .order-box li:nth-child(1) {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: #232323;
   margin-right: 5px;
 }
@@ -3298,7 +3321,7 @@ body .theme-button-one:hover {
 }
 
 .faq-page .panel-group .panel-heading h6 a:before {
-  content: '+';
+  content: "+";
   width: 60px;
   height: 100%;
   position: absolute;
@@ -3312,8 +3335,8 @@ body .theme-button-one:hover {
 }
 
 .faq-page .panel-group .panel-heading.active-panel h6 a:before {
-  content: '';
-  font-family: 'font-awesome';
+  content: "";
+  font-family: "font-awesome";
   font-size: 14px;
 }
 
@@ -3368,7 +3391,7 @@ body .theme-button-one:hover {
   font-size: 18px;
   color: #2f2f2f;
   margin: 0 16px;
-} .row
+}
 
 .error-page input {
   height: 55px;
