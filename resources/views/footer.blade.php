@@ -10,8 +10,8 @@
                 <div class="col-xl-6 col-lg-3 col-sm-6 footer-list">
                     <h6 class="title">Решения</h6>
                     <ul>    
-                        <li><a href="index.html#">Открытие бизнеса</a></li>
-                        <li><a href="index.html#">Услуги поддержки</a></li>
+                        <li><a href="index.html#">Открытие бизнеса в МФЦА</a></li>
+                        <li><a href="index.html#">Услуги поддержки бизнеса</a></li>
                         <li><a href="index.html#">Юридическая консультация</a></li>
                     <ul>
                 </div> <!-- /.footer-list -->
@@ -61,10 +61,10 @@
                 </div>
                 <div class="col-md-6 col-12">
                     <ul>
-                        <li><a href="about.html">О нас</a></li>
-                        <li><a href="service.html">Решения</a></li>
+                        <li><a href="about">О нас</a></li>
+                        <li><a href="service-v1">Решения</a></li>
                         <li><a href="index.html#">FAQ’s</a></li>
-                        <li><a href="contact.html">Контакты</a></li>
+                        <li><a href="contact">Контакты</a></li>
                     </ul>
                 </div>
             </div>
