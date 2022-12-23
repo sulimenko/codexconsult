@@ -616,7 +616,7 @@ body .theme-button-one:hover {
 .header-one .theme-menu-wrapper .bg-wrapper {
   background: #000f32;
   position: relative;
-  padding-left: 25px;
+  padding-left: 25%;
 }
 
 .theme-menu-wrapper .right-widget ul li {
@@ -1190,7 +1190,7 @@ body .theme-button-one:hover {
 }
 
 .our-team .wrapper {
-  margin-top: 25px;
+  margin-top: 45px;
 }
 
 .our-team .team-member .image-box img {
@@ -1402,7 +1402,7 @@ body .theme-button-one:hover {
 /*---------------------- Theme footer one ------------------*/
 .theme-footer-one .top-footer {
   background: #001648;
-  padding: 80px 0 75px 0;
+  padding: 80px 130px 75px 160px;
 }
 
 .theme-footer-one .top-footer .title {

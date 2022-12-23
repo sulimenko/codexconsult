@@ -139,7 +139,7 @@
 #mega-menu-holder ul.dropdown li a {
     width: 100%;
     background: none;
-    padding: 0 0 0 15px;
+    padding: 0 15px 0 15px;
     line-height: 38px;
     font-weight: 700;
     font-size: 12px;
