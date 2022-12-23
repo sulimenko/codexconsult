@@ -6,7 +6,7 @@
 <header class="header-one">
     <div class="top-header">
         <div class="container clearfix">
-            <div class="logo float-left"><a href="index"><img src="images/logo/logo.png" alt=""></a></div>
+            <div class="logo float-left"><a href="index"><img src="images/logo/ptfinlogo.svg" alt=""></a></div>
             <div class="address-wrapper float-right">
                 <ul>
                     <li class="address">

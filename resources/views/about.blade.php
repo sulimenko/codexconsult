@@ -212,11 +212,11 @@
 			</div>
 			<div class="col-md-9 col-sm-8 col-12">
 				<div class="partner-slider">
-					<div class="item"><img src="images/logo/p-6.png" alt=""></div>
-					<div class="item"><img src="images/logo/p-6.png" alt=""></div>
-					<div class="item"><img src="images/logo/p-3.png" alt=""></div>
-					<div class="item"><img src="images/logo/p-6.png" alt=""></div>
-					<div class="item"><img src="images/logo/p-6.png" alt=""></div>
+					<div class="item"><img src="images/logo/ptfinlogo.svg" alt=""></div>
+					<div class="item"><img src="images/logo/ptfinlogo.svg" alt=""></div>
+					<div class="item"><img src="images/logo/ptfinlogo.svg" alt=""></div>
+					<div class="item"><img src="images/logo/ptfinlogo.svg" alt=""></div>
+					<div class="item"><img src="images/logo/ptfinlogo.svg" alt=""></div>
 				</div>
 			</div>
 		</div>
