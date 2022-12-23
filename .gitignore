@@ -4,6 +4,8 @@ public/storage
 public/css
 public/js
 public/vendor
+public/fonts
+public/images
 storage/*.key
 
 # local env files
