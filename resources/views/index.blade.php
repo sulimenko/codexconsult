@@ -286,7 +286,7 @@
 				<div class="wrapper">
 					<div class="row">
 						@foreach([
-							['image' => '1.jpg', 'phrase' => 'lysenko@codexconsult.kz', 'fio' => 'Алексей Лысенко', 'position' => 'Директор по продажам'],
+							['image' => '6.jpg', 'phrase' => 'lysenko@codexconsult.kz', 'fio' => 'Алексей Лысенко', 'position' => 'Директор по продажам'],
 							['image' => '2.jpg', 'phrase' => 'abraimov@codexconsult.kz', 'fio' => 'Алмаз Абраимов', 'position' => 'Генеральный директор'],
 							['image' => '5.jpg', 'phrase' => 'berdyugin@codexconsult.kz', 'fio' => 'Александр Бердюгин', 'position' => 'Комплаенс-директор'],
 							['image' => '3.jpg', 'phrase' => 'nem@codexconsult.kz', 'fio' => 'Людмила Нэм', 'position' => 'Коммерческий директор'],
