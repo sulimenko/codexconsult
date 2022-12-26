@@ -25,7 +25,7 @@
 	<h3>Похоже, что-то пошло не так</h3>
 	<p>Страница которую вы ищете, была перемещена иили никогда не существовала.</p>
 	<div>
-		<a href="index.html" class="theme-button-one">Главная</a>
+		<a href="index" class="theme-button-one">Главная</a>
 		<span class="or">или</span>
 		<input type="text" placeholder="Поиск...">
 	</div>

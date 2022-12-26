@@ -63,7 +63,7 @@
                     <ul>
                         <li><a href="about">О нас</a></li>
                         <li><a href="service-v1">Решения</a></li>
-                        <li><a href="index.html#">FAQ’s</a></li>
+                        {{-- <li><a href="index.html#">FAQ’s</a></li> --}}
                         <li><a href="contact">Контакты</a></li>
                     </ul>
                 </div>

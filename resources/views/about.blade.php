@@ -26,7 +26,7 @@
 		<p>Команда профессионалов, движимая единой целью, была собрана для решения повседневных задач. Но 
 			в последующем мы поняли, что каждый предприниматель прокладывая свой бизнес-путь начинает всё с чистого 
 			листа. Это и привело к созданию центра консультации, который упрощает жизнь владельцу бизнеса.</p>
-		<a href="about.html#" class="theme-button-one">Позвонить</a>
+		<a href="about#" class="theme-button-one">Позвонить</a>
 	</div>
 </div> <!-- /.callout-banner -->
 
@@ -82,17 +82,17 @@
 					<ul class="best-list-item">
 						<li>
 							<i class="icon flaticon-puzzle"></i>
-							<h5><a href="about.html#">Профессионализм</a></h5>
+							<h5><a href="about#">Профессионализм</a></h5>
 							<p>Наша команда состоит из профессионалов, обладающих необходимыми компетенциями и опытом.</p>
 						</li>
 						<li>
 							<i class="icon flaticon-presentation"></i>
-							<h5><a href="about.html#">Отличный сервис</a></h5>
+							<h5><a href="about#">Отличный сервис</a></h5>
 							<p>Высокий уровень сервиса вне зависимости от сотрудника.</p>
 						</li>
 						<li>
 							<i class="icon flaticon-people"></i>
-							<h5><a href="about.html#">Индивидуальная поддержка</a></h5>
+							<h5><a href="about#">Индивидуальная поддержка</a></h5>
 							<p>Клиент получает индивидуальный сервис для решения текущих вопросов.</p>
 						</li>
 					</ul>
@@ -160,10 +160,10 @@
 					<div class="single-value-block">
 						<div class="image-box">
 							<img src="images/home/17.jpg" alt="">
-							<div class="overlay"><a href="about.html#" class="theme-button-one">подробнее</a></div>
+							<div class="overlay"><a href="about#" class="theme-button-one">подробнее</a></div>
 						</div> <!-- /.image-box -->
 						<div class="text">
-							<h5><a href="about.html#">Работа в команде</a></h5>
+							<h5><a href="about#">Работа в команде</a></h5>
 							<p>Взаимодействие с другими сотрудниками, улучшающее взаимозаменяемость и сплоченность.</p>
 						</div> <!-- /.text -->
 					</div> <!-- /.single-value-block -->
@@ -172,10 +172,10 @@
 					<div class="single-value-block">
 						<div class="image-box">
 							<img src="images/home/18.jpg" alt="">
-							<div class="overlay"><a href="about.html#" class="theme-button-one">подробнее</a></div>
+							<div class="overlay"><a href="about#" class="theme-button-one">подробнее</a></div>
 						</div> <!-- /.image-box -->
 						<div class="text">
-							<h5><a href="about.html#">Стремление к инновациям</a></h5>
+							<h5><a href="about#">Стремление к инновациям</a></h5>
 							<p>За каждой идеей стоит человек, инновационность которого определяет путь к достижению цели.</p>
 						</div> <!-- /.text -->
 					</div> <!-- /.single-value-block -->
@@ -184,10 +184,10 @@
 					<div class="single-value-block">
 						<div class="image-box">
 							<img src="images/home/19.jpg" alt="">
-							<div class="overlay"><a href="about.html#" class="theme-button-one">подробнее</a></div>
+							<div class="overlay"><a href="about#" class="theme-button-one">подробнее</a></div>
 						</div> <!-- /.image-box -->
 						<div class="text">
-							<h5><a href="about.html#">Рыночная конкурентность</a></h5>
+							<h5><a href="about#">Рыночная конкурентность</a></h5>
 							<p>Преимущества и их развитие, которые могут усилить превосходство над конкурентами.</p>
 						</div> <!-- /.text -->
 					</div> <!-- /.single-value-block -->
