@@ -1025,6 +1025,10 @@ body .theme-button-one:hover {
 }
 
 /*---------------- Service Style One --------------*/
+.single-service {
+  height: 120px;
+}
+
 .service-style-one .single-service {
   position: relative;
   padding-left: 118px;
@@ -1037,14 +1041,15 @@ body .theme-button-one:hover {
   border-radius: 0 4px 4px 0;
   border-left: none;
   padding: 20px 10px 18px 30px;
+  height: 120px;
 }
 
 .service-style-one .single-service .text p {
   padding-bottom: 10px;
 }
 
-.service-style-one .single-service .text .read-more {
-  font-size: 14px;
+.service-style-one .single-service .text a {
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -1058,11 +1063,13 @@ body .theme-button-one:hover {
   top: 0;
   bottom: 0;
   width: 120px;
+  height: 120px;
   border-radius: 5px;
   background: #001a57;
 }
 
 .service-style-one .single-service .img-box img {
+  height: inherit;
   width: 100%;
   border-radius: 4px;
   opacity: 0.9;
