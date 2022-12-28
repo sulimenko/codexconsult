@@ -30,13 +30,12 @@
 			<div class="row">
 
 				@foreach([
-					['image' => '1.jpg', 'details' => 'Консультации по регулированию бизнеса в МФЦА' ],
-					['image' => '2.jpg', 'details' => 'Юридическое сопровождение' ],
-					['image' => '3.jpg', 'details' => 'Юридический аудит' ],
-					['image' => '4.jpg', 'details' => 'Представление в суде МФЦА' ],
-					['image' => '5.jpg', 'details' => 'Сопровождение по вопросам трудового и налогового законодательства' ],
-					['image' => '6.jpg', 'details' => 'Anti‐Money Laundering & Know Your Customer (Идентификация личности 
-					клиента и контроль его финансовых операции)' ],
+					['image' => '8.jpg', 'details' => 'Консультации по регулированию бизнеса в МФЦА' ],
+					['image' => '6.jpg', 'details' => 'Сопровождение по трудовому и налоговому законодательству' ],
+					['image' => '18.jpg', 'details' => 'Юридический аудит' ],
+					['image' => '4.jpg', 'details' => 'Юридическое сопровождение' ],
+					['image' => '5.jpg', 'details' => 'Представление в суде МФЦА' ],
+					['image' => '10.jpg', 'details' => 'Anti‐Money Laundering & Know Your Customer' ],
 					] AS $each)
 				
 					@include('service')
