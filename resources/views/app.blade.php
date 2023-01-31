@@ -15,7 +15,7 @@
 	<meta name="msapplication-navbutton-color" content="#061948">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#061948">
-	<title>Charles-Business-Consulting HTML Template</title>
+	<title>Codexconsult</title>
     <!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
 

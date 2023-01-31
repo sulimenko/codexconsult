@@ -26,7 +26,7 @@
       <div class="col-lg-7 col-12">
         <div class="form-wrapper">
           <form
-            action="https://html.creativegigstf.com/charles/inc/sendemail.php"
+            action="mailto:info@codexconsult.kz"
             class="theme-form-one form-validation"
             autocomplete="off"
           >
